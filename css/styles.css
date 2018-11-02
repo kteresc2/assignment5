@@ -1,0 +1,27 @@
+
+.snake-gallery {
+    box-shadow: 3px 3px #00ff00;
+}
+
+.small {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+img{
+    box-shadow: 5px 5px #666666;
+}
+
+.large{
+    font-size: 65px;
+    font-family: sans-serif;
+}
+.medium{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.other{
+    font-size: 25px;
+    font-family: fantasy
+}
