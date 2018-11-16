@@ -1,3 +1,6 @@
+header {display: flex}
+main {display: flex; flex-direction: row}
+
 
 .snake-gallery {
     box-shadow: 3px 3px #00ff00;
@@ -25,3 +28,8 @@ img{
     font-size: 25px;
     font-family: fantasy
 }
+
+header nav ul {
+    
+    display: flex;
+    justify-content: flex-end
