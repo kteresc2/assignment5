@@ -36,3 +36,13 @@
 .container{
     justify-content: center
 }
+
+body {
+   
+ background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}

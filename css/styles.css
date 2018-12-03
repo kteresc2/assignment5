@@ -1,10 +1,12 @@
-header {display: flex}
-main {display: flex; flex-direction: row}
-
-
-.snake-gallery {
-    box-shadow: 3px 3px #00ff00;
+header {
+    display: flex
 }
+
+main {
+    display: flex;
+    flex-direction: column
+}
+
 
 .small {
     font-size: 40px;
@@ -12,24 +14,32 @@ main {display: flex; flex-direction: row}
 }
 
 
-img{
+img {
     box-shadow: 5px 5px #666666;
 }
 
-.large{
+.large {
     font-size: 65px;
     font-family: sans-serif;
 }
-.medium{
+
+.medium {
     font-size: 20px;
     font-family: sans-serif;
 }
-.other{
+
+.other {
     font-size: 25px;
     font-family: fantasy
 }
 
 header nav ul {
-    
+
     display: flex;
     justify-content: flex-end
+}
+
+.snake-gallery img {
+    height: 90px;
+    box-shadow: 3px 3px #00ff00;
+}
