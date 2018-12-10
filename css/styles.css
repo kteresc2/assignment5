@@ -43,3 +43,10 @@ header nav ul {
     height: 90px;
     box-shadow: 3px 3px #00ff00;
 }
+
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer,
+    form p
+}
